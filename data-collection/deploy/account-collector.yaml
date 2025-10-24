@@ -298,6 +298,7 @@ Resources:
           PREDEF_ACCOUNT_LIST_KEY: "account-list/account-list"
           EXCLUDED_ACCOUNT_LIST_KEY: "account-list/excluded-linked-account-list.csv"
           EUC_ACCOUNT_IDS: !Ref EUCAccountIDs
+
     Metadata:
       cfn_nag:
         rules_to_suppress:
